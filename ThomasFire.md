@@ -13,13 +13,19 @@ containment <- thomas.fire$Containment
 ```
 
 ``` r
-plot(acres.burned, containment,
+plot <- plot(acres.burned, containment,
      xlab = "Acres Burned",
      ylab = "Containment",
      main = "Containment of Fire as Acres Burned")
 ```
 
 ![](ThomasFire_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+
+``` r
+plot
+```
+
+    ## NULL
 
 To represent the data in the given data set, I chose to use a scatter
 plot with the independent variable being the amount of acres burned in
