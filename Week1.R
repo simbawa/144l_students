@@ -126,6 +126,8 @@ all_incidents.plot <- incidents %>%
 saveRDS(socal.fires, file = "~/Desktop/GitHub/144l_students/Output_Data/socal_fires_data.rds")
 
 
+log(30)
+
 
 
 
